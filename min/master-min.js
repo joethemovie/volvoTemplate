@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".targetDiv").hide(),$("#nameSection").show(),$(function(){$(".showSingle").click(function(){$(".targetDiv").hide(),$("#"+$(this).attr("target")+"Section").show()})})});
