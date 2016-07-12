@@ -10,7 +10,7 @@ $( document ).ready(function() {
     });
 
     $('.group').hide();
-    $('#S60').show();
+    $('#S90').show();
     $('#car').change(function () {
     $('.group').hide();
     $('#'+$(this).val()).show();
@@ -21,4 +21,9 @@ $( document ).ready(function() {
    $('.colorGroup').hide();
    $('#'+$(this).val()).show();
   })
+  $('#xc90T5Color').show();
+  $('#XC90Model').change(function () {
+  $('.colorGroup').hide();
+  $('#'+$(this).val()).show();
+ })
 });
